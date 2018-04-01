@@ -12,3 +12,14 @@
  body {
  	
  }
+
+html {
+  cursor: none;
+  overflow: hidden;
+  background: transparent;
+	}
+ .region.fullscreen * {
+  pointer-events: auto;
+  position: top;
+  top: 0px;
+	}
